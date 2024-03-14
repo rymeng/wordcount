@@ -5,7 +5,7 @@ CC := gcc
 RM := rm -rf
 MKDIR := mkdir -p
 
-TARGET := wordcount.x86_64
+TARGET := wc.x86_64
 
 VPATH := src
 SRC_DIR := ./src

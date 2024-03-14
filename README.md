@@ -28,6 +28,7 @@ cd bin
 # Release History
 
 2024-03-10 Version 1.0.0: Implement basic functions & README file Version 1.0
+2024-03-14 Version 2.0.0: Add Functions: Count characters and lines $ README file Version 1.1
 
 # Author
 
