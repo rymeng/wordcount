@@ -5,7 +5,7 @@ An open source tool can be used to counting words.
 
 ## Prerequisites
 
-System: GNU/Linux x86\_64
+System: GNU/Linux
 
 Compiler: GCC(All Versions)
 
@@ -23,12 +23,25 @@ make
 
 cd bin
 
-./wordcount.x86\_64
+./wc.ARCH (Comment: ARCH is the output string by shell command "uname -m")
+
+## Standard Input Stream
+
+WARNING: Only support STANDARD INPUT STREAM!
+
+1.) The input stream consists of (0 ~ n) LINE(s).
+
+2.) Each line is terminated by a NEWLINE character (\\n in the C Programming Language). It is FORBIDDEN to enter a "line" that does not contain a newline character and is directly terminated by EOF symbol.
+
+3.) After all line(s), the input stream is terminated by the EOF symbol. Empty input stream containing only EOF symbol and no lines is allowed.
 
 # Release History
 
 2024-03-10 Version 1.0.0: Implement basic functions & README file Version 1.0
+
 2024-03-14 Version 2.0.0: Add Functions: Count characters and lines $ README file Version 1.1
+
+2024-03-26 Version 3.0.0: Allows compilation on CPUs of different architectures && README file Version 2.0
 
 # Author
 

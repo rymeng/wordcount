@@ -5,7 +5,7 @@ CC := gcc
 RM := rm -rf
 MKDIR := mkdir -p
 
-TARGET := wc.x86_64
+TARGET := wc.$(shell uname -m)
 
 VPATH := src
 SRC_DIR := ./src
