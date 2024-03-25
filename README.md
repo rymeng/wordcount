@@ -1,9 +1,9 @@
 # Project: wordcount
 An open source tool can be used to counting words.
 
-# Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 System: GNU/Linux
 
@@ -11,7 +11,7 @@ Compiler: GCC(All Versions)
 
 C Standard Library: The GNU C Library(glibc)(All Versions)
 
-## Installation
+### Installation
 
 GNU/Linux:
 
@@ -25,7 +25,7 @@ cd bin
 
 ./wc.ARCH (Comment: ARCH is the output string by shell command "uname -m")
 
-## Standard Input Stream
+### Standard Input Stream
 
 WARNING: Only support STANDARD INPUT STREAM!
 
@@ -35,7 +35,7 @@ WARNING: Only support STANDARD INPUT STREAM!
 
 3.) After all line(s), the input stream is terminated by the EOF symbol. Empty input stream containing only EOF symbol and no lines is allowed.
 
-# Release History
+## Release History
 
 2024-03-10 Version 1.0.0: Implement basic functions & README file Version 1.0
 
@@ -43,12 +43,14 @@ WARNING: Only support STANDARD INPUT STREAM!
 
 2024-03-26 Version 3.0.0: Allows compilation on CPUs of different architectures && README file Version 2.0
 
-# Author
+2024-03-26 Version 3.0.1: README file Version 2.1
+
+## Author
 
 Rainer Yutai Meng
 
 E-mail: rainer.yutai.meng@gmail.com
 
-# License
+## License
 
 GNU General Public License(GPL) v2.0
